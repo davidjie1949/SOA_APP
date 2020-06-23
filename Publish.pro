@@ -29,7 +29,9 @@ SOURCES += \
     TVF_To_DXP.pb.cc \
     paho_test_utils.cpp \
     TVF_To_DXP_info.pb.cc \
-    soa-test-utils.cpp
+    soa-test-utils.cpp \
+    soa-publish-test.cpp \
+    soa-subscribe-test.cpp
 
 HEADERS += \
         mainwindow.h \
