@@ -28,13 +28,15 @@ SOURCES += \
         mainwindow.cpp \
     TVF_To_DXP.pb.cc \
     paho_test_utils.cpp \
-    TVF_To_DXP_info.pb.cc
+    TVF_To_DXP_info.pb.cc \
+    soa-test-utils.cpp
 
 HEADERS += \
         mainwindow.h \
     TVF_To_DXP.pb.h \
     paho_test_utils.h \
-    TVF_To_DXP_info.pb.h
+    TVF_To_DXP_info.pb.h \
+    soa-test-utils.hpp
 
 FORMS += \
         mainwindow.ui
@@ -49,6 +51,14 @@ DEPENDPATH += $$PWD/../../../../usr/local/include
 win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../../../../usr/local/lib/release/ -lpaho-mqtt3c
 else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../../../../usr/local/lib/debug/ -lpaho-mqtt3c
 else:unix:!macx: LIBS += -L$$PWD/../../../../usr/local/lib/ -lpaho-mqtt3c
+
+INCLUDEPATH += $$PWD/../../../../usr/local/include
+DEPENDPATH += $$PWD/../../../../usr/local/include
+
+
+win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../../../../usr/local/lib/release/ -lsoaframework
+else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../../../../usr/local/lib/debug/ -lsoaframework
+else:unix:!macx: LIBS += -L$$PWD/../../../../usr/local/lib/ -lsoaframework
 
 INCLUDEPATH += $$PWD/../../../../usr/local/include
 DEPENDPATH += $$PWD/../../../../usr/local/include
