@@ -57,3 +57,19 @@ void MainWindow::on_PublishArrival_clicked(){
 }
 
 
+void MainWindow::on_Passenger_Pullover_clicked(bool checked){
+    cout << " Passenger Pullover Requested." << checked << endl;
+}
+
+void MainWindow::on_cancel_pullover_clicked(bool checked){
+    cout << " Cancel Pullover Requested." << checked << endl;
+}
+
+void MainWindow::on_GoAck_Check_clicked(bool checked){
+    cout << " GoAck_check Requested." << checked << endl;
+}
+
+void MainWindow::on_NewPassengerCount_clicked(){
+    QMessageBox msg;
+    msg.information(0, " Pass_Count " , ui->pass_count->currentText());
+}

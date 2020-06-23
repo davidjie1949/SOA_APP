@@ -18,6 +18,14 @@ public:
 private slots:
     void on_PublishArrival_clicked();
 
+    void on_Passenger_Pullover_clicked(bool checked);
+
+    void on_cancel_pullover_clicked(bool checked);
+
+    void on_GoAck_Check_clicked(bool checked);
+
+    void on_NewPassengerCount_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

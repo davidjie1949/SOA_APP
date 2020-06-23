@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>470</width>
+    <width>411</width>
     <height>509</height>
    </rect>
   </property>
@@ -19,109 +19,18 @@
      <rect>
       <x>20</x>
       <y>10</y>
-      <width>241</width>
-      <height>431</height>
+      <width>201</width>
+      <height>351</height>
      </rect>
     </property>
     <property name="title">
      <string>DXP -&gt; TVF</string>
     </property>
-    <widget class="QPushButton" name="PublishLinger">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>280</y>
-       <width>101</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>PublishLinger</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="OnboardingTripInfo">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>160</y>
-       <width>200</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>PublishOnboardingTripsInfo</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="PublishActiveTripInfo">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>190</y>
-       <width>154</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>PublishActiveTripInfo</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="PublishDriveUpdates">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>310</y>
-       <width>151</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>PublishDriveUpdates</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="PublishMrc">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>220</y>
-       <width>84</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>PublishMrc</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="PublishOffboardingTrips">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>250</y>
-       <width>176</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>PublishOffboardingTrips</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="PublishGoButtonStatus">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>340</y>
-       <width>168</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>PublishGoButtonStatus</string>
-     </property>
-    </widget>
     <widget class="QGroupBox" name="PublishArrival_Msg">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>30</y>
+       <y>220</y>
        <width>171</width>
        <height>121</height>
       </rect>
@@ -191,12 +100,112 @@
       </item>
      </widget>
     </widget>
+    <widget class="QGroupBox" name="groupBox_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>181</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>NewPassengerCountRqst</string>
+     </property>
+     <widget class="QPushButton" name="NewPassengerCount">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>151</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>NewPassengerCount</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="pass_count">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>86</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="Passenger_Pullover">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>141</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Passenger_Pullover</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancel_pullover">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>141</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>cancel_pullover</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="GoAck_Check">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>141</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>GoAck_Check</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_2">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>210</y>
+      <x>240</x>
+      <y>100</y>
       <width>154</width>
       <height>81</height>
      </rect>
@@ -208,8 +217,8 @@
    <widget class="QGroupBox" name="groupBox_4">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>30</y>
+      <x>240</x>
+      <y>10</y>
       <width>154</width>
       <height>81</height>
      </rect>
@@ -218,13 +227,26 @@
      <string>VDS -&gt; TVF</string>
     </property>
    </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>213</x>
+      <y>30</y>
+      <width>20</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>470</width>
+     <width>411</width>
      <height>22</height>
     </rect>
    </property>
@@ -241,14 +263,7 @@
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <tabstops>
-  <tabstop>PublishDriveUpdates</tabstop>
-  <tabstop>PublishLinger</tabstop>
   <tabstop>PublishArrival</tabstop>
-  <tabstop>PublishGoButtonStatus</tabstop>
-  <tabstop>OnboardingTripInfo</tabstop>
-  <tabstop>PublishMrc</tabstop>
-  <tabstop>PublishOffboardingTrips</tabstop>
-  <tabstop>PublishActiveTripInfo</tabstop>
  </tabstops>
  <resources/>
  <connections/>
