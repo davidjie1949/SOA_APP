@@ -19,11 +19,10 @@
 #include <condition_variable>
 #include <iostream>
 
-#include <soa_connection_options.hpp>
-#include <soa_consumer.hpp>
+#include </usr/local/include/soa/framework/soa_connection_options.hpp>
+#include </usr/local/include/soa/framework/soa_consumer.hpp>
 #include <mutex>
-#include <include/soa/ipc/soa_connection_options_ipc.hpp>
-
+#include </usr/local/include/soa/ipc/soa_connection_options_ipc.hpp>
 
 namespace fnv {
 namespace soa {
@@ -335,12 +334,12 @@ int execute(uid_t uid) {
  * 5. Wait for the arrival of the data for a timeout. Disconnect.
  */
 
-int main(int argc, char *argv[]) {
-    uid_t uid;
-    if (argc == 2) {
-        uid = atoi(argv[1]);
-    } else {
-        uid = 0;
-    }
-    return fnv::soa::gateway::functest::execute(uid);
-}
+//int main(int argc, char *argv[]) {
+//    uid_t uid;
+//    if (argc == 2) {
+//        uid = atoi(argv[1]);
+//    } else {
+//        uid = 0;
+//    }
+//    return fnv::soa::gateway::functest::execute(uid);
+//}
