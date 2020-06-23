@@ -26,80 +26,6 @@
     <property name="title">
      <string>DXP -&gt; TVF</string>
     </property>
-    <widget class="QGroupBox" name="PublishArrival_Msg">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>220</y>
-       <width>171</width>
-       <height>121</height>
-      </rect>
-     </property>
-     <property name="title">
-      <string>PublishArrival_Msg</string>
-     </property>
-     <widget class="QPushButton" name="PublishArrival">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>90</y>
-        <width>103</width>
-        <height>25</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>PublishArrival</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="should_disp">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>30</y>
-        <width>112</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>should_disp</string>
-      </property>
-     </widget>
-     <widget class="QComboBox" name="curbside">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>60</y>
-        <width>151</width>
-        <height>25</height>
-       </rect>
-      </property>
-      <item>
-       <property name="text">
-        <string>CURB_SIDE_NULL</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>CURB_SIDE_LEFT</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>CURB_SIDE_RIGHT</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>CURB_SIDE_BOTH</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>CURB_SIDE_NEITHER</string>
-       </property>
-      </item>
-     </widget>
-    </widget>
     <widget class="QGroupBox" name="groupBox_6">
      <property name="geometry">
       <rect>
@@ -262,9 +188,6 @@
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <tabstops>
-  <tabstop>PublishArrival</tabstop>
- </tabstops>
  <resources/>
  <connections/>
 </ui>

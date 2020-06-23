@@ -16,7 +16,6 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_PublishArrival_clicked();
 
     void on_Passenger_Pullover_clicked(bool checked);
 
